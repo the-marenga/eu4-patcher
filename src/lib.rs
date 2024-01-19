@@ -11,8 +11,8 @@ pub enum PatchTyp {
     /// Enables Ironman with any checksum
     ModdedIronman,
     /// Enables loading saves in ironman and makes ironman saves available in
-    /// that manu
-    EnableIronmanLoading,
+    /// that menu
+    IronmanLoading,
     /// Turns normal saves into ironman saves by hovering over the "load"
     /// button during gameplay. This is very unuseable, as saves converted
     /// with this method do not have any possisble achievements listed.
@@ -125,7 +125,7 @@ impl PatchTyp {
                     post_patch,
                 }]
             }
-            PatchTyp::EnableIronmanLoading => {
+            PatchTyp::IronmanLoading => {
                 let target = &[
                     0xD2, 0x48, 0x8B, 0x01, 0x4C, 0x8B, 0x80, 0x80, 0x00, 0x00,
                     0x00, 0x4C, 0x3B, 0xC7, 0x75, 0x14, 0x84, 0xD2, 0x74, 0x08,

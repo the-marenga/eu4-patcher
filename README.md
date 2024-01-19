@@ -8,7 +8,7 @@ Currently, it supports the following feaures:
 
 To run this, download the latest exe from the releases, or build the tool yourself. Then you can apply patches by running the exe from the commandline (cmd/powershell) like this:
 ```
-eu4-pacher.exe --patch modded-ironman,enable-ironman-loading  --input 'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\eu4.exe' 
+eu4-patcher.exe --patch modded-ironman,ironman-loading  --input 'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\eu4.exe' 
 ```
 
 If you encounter any unexpected errors, feel free to open an issue
